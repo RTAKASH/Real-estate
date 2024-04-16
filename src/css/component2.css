@@ -1,0 +1,161 @@
+
+.div1
+{
+    display: flex;
+    margin-top: 85px;
+    overflow-x: hidden;
+}
+.content img
+{
+    width: 704px;
+height: 657px;
+top: 1000px;
+border-radius: 0 57 0 0;
+
+}
+.content-info
+{
+    margin-top: 85px;
+}
+.content-info h1
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: -1.256410002708435px;
+    text-align: left;
+    width: 475px;
+height: 65px;
+color:#000000;
+
+}
+.content-info p
+{
+    font-family: "DM Sans", sans-serif;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.502564013004303px;
+text-align: left;
+width: 428px;
+height: 168px;
+top: 106px;
+opacity: 0.6;
+
+}
+.button1 {
+    width: 209px;
+    height: 70px;
+    border: 5px solid black; /* Set border color same as background */
+    border-top-right-radius: 20px; /* Top right corner rounded */
+    background-color: #000000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.42717939615249634px;
+    text-align: left;
+    color: white;
+    padding-left: 38px;
+    margin-top: 29px;
+}
+
+
+.button1 img
+{
+    width: 20px;
+height: 9.63px;
+padding-left: 10px;
+
+}
+
+@media (max-width: 500px) {
+    .div1 {
+        flex-direction: column-reverse; /* Reverse the order on smaller screens */
+    }
+    .content
+    {
+        order:2;
+       
+    }
+    .content-info
+    {
+        order: 1; /* Display this item first */
+        margin-top: 157px;
+    }
+    .content-info h1
+    {
+        width:100%;
+    font-size: 40px;
+    margin-left: 33px;
+    }
+    .content-info p
+    {
+        width: 86%;
+        font-size: 17px;
+        margin-left: 33px;
+    
+    }
+    .content img {
+        max-width: 101%;
+        margin-left: 13px;
+        height: auto; /* Set the maximum width to 100% for smaller screens */
+    }
+    .button1{
+        margin-left: 34px;
+        width: 334px;
+        height: 58px;
+        padding-left: 99px;
+        font-size: 20px;
+    }
+
+    .bar
+    {
+     margin-left: 31px;   
+    }
+}
+
+/* Your existing styles for .content, .content-info, and .button1 */
+@media (max-width: 900px) {
+    .div1 {
+        flex-direction: column-reverse; /* Reverse the order on smaller screens */
+    }
+    .content
+    {
+        order:2;
+       
+    }
+    .content-info
+    {
+        order: 1; /* Display this item first */
+        margin-top: 157px;
+    }
+    .content-info h1
+    {
+        width:100%;
+    font-size: 40px;
+    margin-left: 33px;
+    }
+    .content-info p
+    {
+        width: 86%;
+        font-size: 17px;
+        margin-left: 33px;
+    
+    }
+    .content img {
+        max-width: 101%;
+        margin-left: 13px;
+        height: auto; /* Set the maximum width to 100% for smaller screens */
+    }
+    .button1{
+        margin-left: 34px;
+        width: 334px;
+        height: 58px;
+        padding-left: 99px;
+        font-size: 20px;
+    }
+
+    .bar
+    {
+     margin-left: 31px;   
+    }
+}

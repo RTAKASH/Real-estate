@@ -1,0 +1,861 @@
+
+.header
+{
+    background-color: black;
+    width: 100%;
+    height: 230px;
+}
+.header-content
+{
+    display: flex;
+}
+
+.header-content1 h1
+{
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.80410236120224px;
+  text-align: left;
+  color: white;
+  margin-top: -12px;
+  margin-left: 129px;
+}
+.header-content p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.37692299485206604px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 129px;
+}
+.header-content2 h1{
+  font-family: "DM Sans", sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.80410236120224px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: -11px;
+  margin-left: 960px;
+}
+.header-content2 p
+{
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.37692299485206604px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 961px;
+}
+.header-content{
+    padding-top: 47px;
+}
+.features{
+    overflow: hidden; /* Ensure the image stays within the card */
+    width: 704px;
+    height: 337px;
+    border: none; /* Remove border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-top:50px;
+    margin-left: 178px;
+    position:relative;
+    border-radius: 26px;
+  }
+  .rect1
+  {
+    background-color:rgba(228, 228, 228, 1);
+
+
+  }
+  .features h1{
+    padding-left: 36px;
+    padding-top: 35px;
+    font-family: "DM Sans", sans-serif;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.502564013004303px;
+text-align: left;
+
+  }
+
+  .features1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: -10px;
+  }
+  .features1 ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 41px;
+    width: 30%; /* Adjust width as needed */
+  }
+  
+  .features1 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px; /* Adjust margin between items */
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.37692299485206604px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .features1 li img {
+    margin-right: 10px; /* Adjust margin between image and text */
+    width: 20px; /* Adjust image width as needed */
+    height: 20px; /* Adjust image height as needed */
+  }
+  
+  .features1 li:last-child {
+    margin-bottom: 0; /* Remove margin for the last item */
+  }
+  
+  .details1 {
+    overflow: hidden;
+    width: 704px;
+    height: auto; /* Adjust height to fit content */
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-left: 180px;
+    position: relative;
+    border-radius: 26px;
+    padding: 20px; /* Add padding for spacing inside the card */
+}
+
+.details1 h1 {
+  font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.502564013004303px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 28px;
+    margin-bottom: 20px; /* Add margin bottom to separate from the content */
+}
+
+.details1 img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    background-color: rgba(228, 228, 228, 1);
+    margin-bottom: 43px;
+}
+
+.details1 .content {
+    margin-top: -20px; /* Adjust to align with the bottom of the image */
+}
+
+.details1 p {
+  font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.37692299485206604px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    margin-right: 28px;
+    /* Add margin bottom to separate paragraphs */
+}
+
+.details1 p span {
+    display: block; /* Display spans as block elements */
+    margin-top: 20px; /* Adjust top margin between spans */
+}
+.details
+{
+    overflow: hidden; /* Ensure the image stays within the card */
+    width: 704px;
+    height: 170px;
+    border: none; /* Remove border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-top:50px;
+    margin-left: 183px;
+    position:relative;
+    border-radius: 26px;
+}
+.table-container2 {
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Align with the bottom of the card */
+    left: 0; /* Align with the left edge of the card */
+    width: 100%; /* Cover the entire width of the card */
+    padding: 0; /* Add padding for spacing */
+    flex-direction: row;
+    display: flex;
+    margin-bottom: -11px;
+    height: 79px;
+   
+  }
+  
+
+  .table-column2 {
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 20px);
+    padding-top: 26px;
+    padding-left: 34px;
+  }
+  
+  .card1 {
+    flex: 0 0 auto; 
+    overflow: hidden;
+    width: 300px;
+    height: 396px;
+    border: none; /* Remove border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-top:50px;
+    margin-left: 7px;
+    position:relative;
+    border-radius: 26px;
+  }
+  
+  .card1-img {
+    width: 100%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+    border-radius: 25px 25px 0 0; /* Apply border radius to top corners */
+  }
+  
+  .card1 p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.6030767560005188px;
+    text-align: left;
+    width: 139px;
+    height: 31px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 38px;
+    padding-top: 32px;
+  }
+  
+  .cards1
+{
+    display: flex;
+    margin-bottom: 136px;
+    overflow-x: auto; 
+    margin-left: 162px;
+}
+
+.cards1::-webkit-scrollbar-track {
+  background-color: white; /* Set the background color of the scrollbar track */
+}
+.cards1::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1); /* Set the background color of the scrollbar handle */
+  border-radius: 5px; /* Add border radius to the scrollbar handle */
+}
+.card1:last-child {
+  margin-right: 24px; /* Remove margin from the last card */
+}
+.details h1
+{
+  font-family: "DM Sans", sans-serif;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.502564013004303px;
+text-align: left;
+margin-top: 29px;
+  margin-left:16px;
+}
+.display
+{
+  display: flex;
+  margin-top: 10px;
+}.button6 {
+  width: 302px;
+  height: 67px;
+  background-color: rgba(245, 245, 245, 1);
+  border: 2px;
+  margin-left: 30px;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 44px;
+  border-radius: 13px; /* Ensure child elements stay within the button */
+}
+
+.button6 p {
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.37692299485206604px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 81px;
+  margin-top: 0px;
+}
+
+.button6 img {
+  position: absolute;
+  top: 50%;
+  left: 23px;
+  transform: translateY(-50%);
+  width: 16%;
+}
+
+.button6 span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.37692299485206604px;
+  text-align: left;
+  color: rgba(255, 172, 18, 1);
+
+}
+
+.profile
+{
+  overflow: hidden; /* Ensure the image stays within the card */
+  width: 381px;
+  height: 538px;
+  border: none; /* Remove border */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  margin-top: 181px;
+  margin-left: 91px;
+  position:relative;
+  border-radius: 26px;
+}
+.profile form {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.profile input[type="text"],
+.profile input[type="tel"],
+.profile input[type="email"],
+.profile textarea {
+  width: 88%;
+  padding: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-left: 23px;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+line-height: 17.58px;
+letter-spacing: -0.37692299485206604px;
+text-align: left;
+
+}
+.profile textarea {
+  height: 100px; /* Adjust as needed */
+}
+.button7 {
+  width: 334px;
+  height: 70px;
+  border: 5px solid black;
+  border-top-right-radius: 20px;
+  background-color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.42717939615249634px;
+  text-align: left;
+  color: white;
+  padding-left: 97px;
+  margin-left: 26px;
+}
+
+.button7 img
+{
+  width: 20px;
+height: 9.63px;
+padding-left: 15px;
+
+}
+.display1
+{
+  margin-left: 272px;
+  margin-top: 101px;
+}.parent {
+ 
+  max-width: 706px; /* Adjust max-width as needed */
+  width: 100%; /* Set width to occupy available space */
+  height: auto; /* Adjust height to fit content */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping for child elements */
+  justify-content: space-between; /* Add space between child elements */
+  align-items: flex-start; /* Align items to the start of the flex container */
+  margin-left: 198px;
+  margin-top: 95px;
+}
+
+
+.col-2 {
+  width: 100%;
+  margin-top: -630px;
+} 
+
+.col-2 img {
+  width: 356px;
+  height: 395px;
+}
+
+.col-1 {
+  width: 100%; /* Occupy full width */
+  display: flex; /* Use flexbox to display list items horizontally */
+  justify-content: space-around; /* Add space around list items */
+  padding-top: 639px;
+  padding-right: -100px;
+  margin-left: 12px;
+}
+
+.col-1 ul {
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox for list items */
+  list-style-type: none;
+}
+
+.col-1 li {
+  margin-right: 24px; /* Adjust margin between list items */
+}
+
+.col-1 img {
+  width: 80px;
+}
+.enlarged-image-container {
+  position: fixed; /* Position the magnified image container */
+  z-index: 9999; /* Set a high z-index to ensure it's above other elements */
+ 
+}
+.scroll-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scroll-buttons button {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.scroll-buttons button:hover {
+  background-color: #e60073;
+}
+@media (max-width: 500px) {
+  .cards1 {
+      flex-direction: column;
+      margin-left: 10px;
+  }
+
+  .card1 {
+      margin: 20px auto; 
+  }
+  .card1:last-child {
+    margin-right: 53px; /* Remove margin from the last card */
+  }
+
+  .details1 {
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 50px auto; /* Center the component horizontally and add space from top */
+  }
+  .details1 h1
+  {
+    margin-left: 110px;
+  }
+  .details1 p
+  {
+    padding-left: 80px;
+  }
+
+  .features {
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 50px auto; /* Center the component horizontally and add space from top */
+      height: auto; /* Adjust height to fit content */
+      max-height: 400px; /* Set a maximum height for the component */
+      overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  .features1 {
+    display: flex; /* Display items in a single column */
+    margin-top: 25px;
+    margin-left: -10px;
+  }
+  .features1 ul {
+    width: 100%; /* Set the width to 100% to occupy the entire container */
+    margin-left: 99px; /* Add margin to create a gap between columns */
+  }
+  .features1 p
+  {
+    width: 126px;
+  }
+  .features h1
+  {
+    margin-left: 85px;
+  }
+
+  .details {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: 5%; /* Adjust margin for centering */
+  }
+
+
+  .table-column2 {
+    /* Add any other necessary styles */
+    overflow-x: auto;
+  }
+  .col-1{
+    display: none;
+  }
+  .col-2{
+    display: none;
+  }
+
+
+
+.carousel .control-arrow {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  color: #ff0000; /* Red color for the arrows */
+  font-size: 26px;
+  padding: 5px;
+  background-color: black;
+}
+  
+
+  
+.carousel .slide img {
+  width: 100%; /* Make the images fill the slider */
+  vertical-align: top;
+  border: 0;
+}
+  
+.carousel .thumb {
+  width: 50%;
+  height: 50px;
+}
+  
+.carousel {
+  text-align: center;
+}
+.profile
+{
+  display: block;
+  margin-top: 342px;
+  margin-left:-436px;
+  width: 86%;
+  
+}
+.header-content1 h1
+{
+  font-size: 15px;
+  margin-left: 61px;
+    margin-top: -48px;
+}
+.header-content p
+{
+
+  font-size: 10px;
+  margin-left: 30px;
+  margin-left: 62px;
+}
+.header-content2
+{
+  display: none;
+ 
+}
+.header
+{
+  width: 100%;
+  height: 144px;
+}
+.button7
+{
+  width:100%;
+}
+}
+
+.main-slide
+{
+  display:none;
+}
+
+@media (max-width: 500px) {
+  .main-slide
+  {
+
+    display: block;
+    margin-left: -628px;
+    margin-top: 55px;
+    width: 117%;
+  }
+  }
+  @media (max-width: 900px) {
+    .cards1 {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .card1 {
+        margin: 20px auto; 
+    }
+  
+    .details1 {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the component horizontally and add space from top */
+    }
+    .details1 h1
+    {
+      margin-left: 110px;
+    }
+    .details1 p
+    {
+      padding-left: 80px;
+    }
+  
+    .features {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the component horizontally and add space from top */
+        height: auto; /* Adjust height to fit content */
+        max-height: 400px; /* Set a maximum height for the component */
+        overflow-x: auto; /* Enable horizontal scrolling */
+    }
+    .features1 {
+      display: flex; /* Display items in a single column */
+      margin-top: 25px;
+      margin-left: -10px;
+    }
+    .features1 ul {
+      width: 100%; /* Set the width to 100% to occupy the entire container */
+      margin-left: 99px; /* Add margin to create a gap between columns */
+    }
+    .features1 p
+    {
+      width: 126px;
+    }
+    .features h1
+    {
+      margin-left: 85px;
+    }
+  
+    .details {
+      width: 90%; /* Adjust width for smaller screens */
+      margin-left: 5%; /* Adjust margin for centering */
+    }
+  
+  
+    .table-column2 {
+      /* Add any other necessary styles */
+      overflow-x: auto;
+    }
+    .col-1{
+      display: none;
+    }
+    .col-2{
+      display: none;
+    }
+  
+  
+  
+  .carousel .control-arrow {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ff0000; /* Red color for the arrows */
+    font-size: 26px;
+    padding: 5px;
+    background-color: black;
+  }
+    
+  
+    
+  .carousel .slide img {
+    width: 100%; /* Make the images fill the slider */
+    vertical-align: top;
+    border: 0;
+  }
+    
+  .carousel .thumb {
+    width: 50%;
+    height: 50px;
+  }
+    
+  .carousel {
+    text-align: center;
+  }
+  .profile
+  {
+    display: block;
+    margin-top: 342px;
+    margin-left: -754px;
+    width: 86%;
+    
+  }
+  .header-content1 h1
+  {
+    font-size: 15px;
+    margin-left: 61px;
+      margin-top: -48px;
+  }
+  .header-content p
+  {
+  
+    font-size: 10px;
+    margin-left: 30px;
+    margin-left: 62px;
+  }
+  .header-content2
+  {
+    display: none;
+   
+  }
+  .header
+  {
+    width: 100%;
+    height: 144px;
+  }
+  .button7
+  {
+    width:100%;
+  }
+  }
+  @media (max-width: 1500px) {
+    .cards1 {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .card1 {
+        margin: 20px auto; 
+    }
+  
+    .details1 {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the component horizontally and add space from top */
+    }
+    .details1 h1
+    {
+      margin-left: 110px;
+    }
+    .details1 p
+    {
+      padding-left: 80px;
+    }
+  
+    .features {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 50px auto; /* Center the component horizontally and add space from top */
+        height: auto; /* Adjust height to fit content */
+        max-height: 400px; /* Set a maximum height for the component */
+        overflow-x: auto; /* Enable horizontal scrolling */
+    }
+    .features1 {
+      display: flex; /* Display items in a single column */
+      margin-top: 25px;
+      margin-left: -10px;
+    }
+    .features1 ul {
+      width: 100%; /* Set the width to 100% to occupy the entire container */
+      margin-left: 99px; /* Add margin to create a gap between columns */
+    }
+    .features1 p
+    {
+      width: 126px;
+    }
+    .features h1
+    {
+      margin-left: 85px;
+    }
+  
+    .details {
+      width: 90%; /* Adjust width for smaller screens */
+      margin-left: 5%; /* Adjust margin for centering */
+    }
+  
+  
+    .table-column2 {
+      /* Add any other necessary styles */
+      overflow-x: auto;
+    }
+    .col-1{
+      display: none;
+    }
+    .col-2{
+      display: none;
+    }
+  
+  
+  
+  .carousel .control-arrow {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ff0000; /* Red color for the arrows */
+    font-size: 26px;
+    padding: 5px;
+    background-color: black;
+  }
+    
+  
+    
+  .carousel .slide img {
+    width: 100%; /* Make the images fill the slider */
+    vertical-align: top;
+    border: 0;
+  }
+    
+  .carousel .thumb {
+    width: 50%;
+    height: 50px;
+  }
+    
+  .carousel {
+    text-align: center;
+  }
+  .profile
+  {
+    display: block;
+    margin-top: 342px;
+    margin-left: -754px;
+    width: 86%;
+    
+  }
+  .header-content1 h1
+  {
+    font-size: 15px;
+    margin-left: 61px;
+      margin-top: -48px;
+  }
+  .header-content p
+  {
+  
+    font-size: 10px;
+    margin-left: 30px;
+    margin-left: 62px;
+  }
+  .header-content2
+  {
+    display: none;
+   
+  }
+  .header
+  {
+    width: 100%;
+    height: 144px;
+  }
+  .button7
+  {
+    width:100%;
+  }
+  }
+    @media (max-width: 1500px) {
+      .main-slide
+      {
+    
+        display: block;
+        margin-left: -865px;
+        margin-top: 65px;
+      }
+      }

@@ -1,0 +1,236 @@
+.Landing {
+  width: 100%;
+  height: 850px;
+  background: 
+      linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%), /* Gradient */
+      url("../images/Image1.png") no-repeat center/cover; /* Image */
+  position: relative;
+  z-index: 1;
+  overflow-y: hidden;
+}
+
+.description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  line-height: 120px;
+  letter-spacing: -2.010256052017212px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  padding-left: 139px;
+  padding-top: 118px;
+  width: 80%;
+  overflow-y: hidden;
+}
+.description h1 {
+  margin-bottom: 10px;
+  overflow-y: hidden; /* Adjust as needed */
+}
+
+.span2 {
+  display: block;
+  margin-top: -26px;/* Adjust as needed */
+  overflow-y: hidden;
+}
+.span1{
+  display: block;
+  margin-top: -140px;
+  overflow-y: hidden;
+}
+.info {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.502564013004303px;
+  text-align: left;
+  width: 509px;
+  height: 112px;
+  opacity: 0.6;
+  color: #FFFFFF;
+  margin-top: 6px;
+  margin-left: 143px;
+  }
+
+  
+  
+  .info p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+
+  
+  
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  margin-right: 127px;
+  }
+  
+  .logo {
+    display: flex;
+  align-items: center;
+  padding-left: 40px;
+  }
+  
+  .image {
+    width: 11px;
+  height: 33px;
+  padding-left: 107px;
+  }
+  
+  .image1 {
+    width: 105px;
+    height: 16px;
+    margin-left: 18px; /* Adjust as needed */
+  }
+  
+  .navlink-container{
+    display: flex;
+    justify-content: space-between;
+  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+  
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: -159px;
+  }
+
+  @media(max-width : 1020px){
+    .navbar-list{
+      display: none;
+    }
+  }
+  
+  .navbar-list .navlinks{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: DMSans;
+    font-size: 15px;
+    padding-right: 32px;
+  }
+  @media(max-width : 500px)
+  {
+    .logo{
+      margin-left: -116px;
+
+    }
+    .Landing {
+        width:auto;
+        height: auto;
+  }
+  .description
+{
+font-size: 25px;
+margin-left: -69px;
+} 
+.span2{
+  margin-bottom: -32px;
+  margin-top: -43px;
+}
+.info p
+{
+  font-size: 13px;
+  margin-left: -65px;
+  width: 50%;
+
+}
+.block {
+  /* Adjust styles for smaller screens */
+  width: 60%; /* Set width to 60% of the viewport width */
+  margin-left: 82px;
+}
+}
+  .work {
+    background-color: #FFAC12;
+    color: black;
+   
+      border-top-right-radius: 5px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.42717939615249634px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border: 5px solid #FFAC12;
+    border-top-right-radius: 16px;
+    width: 183px;
+    height: 42px;
+    padding-left: 26px;
+    font-weight: bold;
+  
+
+
+  }
+  
+  
+  .work img {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  .block{
+    background-color: rgb(255, 255, 255);
+    width: 1182px;
+    height: 81px;
+    margin-left: 154px;
+    margin-top: 148px;
+  }
+  .block p{
+    padding-top: 29px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.502564013004303px;
+    text-align: left;
+    font-weight: bold;
+
+  }
+  
+  .sidebar.visible {
+    display: flex;
+  }
+  
+  #menu-button {
+    display:none;
+  }
+  @media(max-width : 900px)
+  {
+    .logo{
+      margin-left: -116px;
+
+    }
+    .Landing {
+        width:auto;
+        height: auto;
+  }
+  .description
+{
+font-size: 25px;
+margin-left: -69px;
+} 
+.span2{
+  margin-bottom: -32px;
+  margin-top: -43px;
+}
+.info p
+{
+  font-size: 13px;
+  margin-left: -65px;
+  width: 50%;
+
+}
+.block {
+  /* Adjust styles for smaller screens */
+  width: 60%; /* Set width to 60% of the viewport width */
+  margin-left: 82px;
+}
+}

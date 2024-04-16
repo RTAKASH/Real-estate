@@ -1,0 +1,36 @@
+.main-slide {
+    padding-top: 587px;
+    margin-top: 254px;
+    margin-left: -846px;
+    z-index: -1;
+  }
+    
+  .carousel .control-arrow {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #ff0000; /* Red color for the arrows */
+    font-size: 26px;
+    padding: 5px;
+    background-color: black;
+  }
+    
+  .carousel .carousel-slider {
+    width: 50%; /* Set the width of the carousel slider to 50% */
+  }
+    
+  .carousel .slide img {
+    width: 20%; /* Make the images fill the slider */
+    vertical-align: top;
+    border: 0;
+  }
+    
+  .carousel .thumb {
+    width: 5%;
+    height: 50px;
+  }
+    
+  .carousel {
+    text-align: center;
+  }
+  

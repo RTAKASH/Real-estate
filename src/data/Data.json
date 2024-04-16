@@ -1,0 +1,24 @@
+{
+    "slides":[
+        {
+            "src":"https://picsum.photos/seed/House/600/400",
+             "alt":"image1"
+        },
+        {
+            "src":"https://picsum.photos/seed/House2/600/400",
+             "alt":"image1"
+        },
+        {
+            "src":"https://picsum.photos/seed/House3/600/400",
+             "alt":"image1"
+        },
+        {
+            "src":"https://picsum.photos/seed/House4/600/400",
+             "alt":"image1"
+        },
+        {
+            "src":"https://picsum.photos/seed/House5/600/400",
+             "alt":"image1"
+        }
+    ]
+}

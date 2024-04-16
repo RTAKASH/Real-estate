@@ -1,0 +1,46 @@
+.sidebar-container{
+    background-color: rgb(248, 239, 239);
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+.navbar-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-close-btn{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-toggle{
+    position: relative;
+    margin-left: 193px;
+}
+
+.sidebar-open-btn{
+    fill: #FFAC12;
+  }
+
+  .sidebar-open-btn{
+    display: none;
+  }
+
+  @media (max-width : 1020px) {
+    .sidebar-open-btn{
+      display: block;
+    }
+  }

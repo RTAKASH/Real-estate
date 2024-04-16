@@ -1,0 +1,225 @@
+
+.components3
+{
+  overflow-x: hidden;
+}
+.table-container {
+    display: flex;
+    width: 1076px; /* Adjust width as needed */
+    margin-top: 80px; /* Adjust margin top as needed */
+    margin-left: 151px; /* Adjust margin left as needed */
+    overflow: hidden; /* Hide overflow to prevent the outer border from being visible */
+    background-color: #FFFFFF;
+    border-top-left-radius: 20px; /* Adjust border radius for top left corner */
+    border-top-right-radius: 20px; /* Adjust border radius for top right corner */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    height:83px;
+    border-bottom-left-radius: 20px; /* Adjust border radius for top left corner */
+    border-bottom-right-radius: 20px; 
+  }
+  
+  .table-column {
+    flex: 1;
+    padding: 5px;
+    border-left: 1px solid #E4E4E4;
+    /* Apply border only to the left edge of each column */
+    text-align: center;
+    padding-top: 24px;
+  }
+  
+  .table-column:first-child {
+    border-left: none; /* Remove border from the left edge of the first column */
+  }
+  
+  
+  .button2 {
+    width: 200px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.42717939615249634px;
+    text-align: left; /* Center align text */
+    background-color:#FFFFFF; /* Set button color to white */
+    border: none; /* Remove border */
+    font-weight: bold;
+  }
+  
+  .button2 img {
+    width: 8px;
+    height: 8px;
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+  .place
+  {
+    margin-left:156px ;
+    margin-bottom: -42px;
+  }
+  .place h1{
+    font-family: "DM Sans", sans-serif;
+font-size: 50px;
+line-height: 59px;
+letter-spacing: -1.256410002708435px;
+text-align: left;
+
+  }
+  .card {
+    overflow: hidden; /* Ensure the image stays within the card */
+    width: 336px;
+    height: 418px;
+    border: none; /* Remove border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin-top:50px;
+    margin-left: 156px;
+    position:relative;
+    border-radius: 26px;
+    margin-right: -118px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+    border-radius: 25px 25px 0 0; /* Apply border radius to top corners */
+  }
+  
+  .card p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.6030767560005188px;
+    text-align: left;
+    width: 139px;
+    height: 31px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 38px;
+    padding-top: 32px;
+  }
+  
+  
+
+  .table-container1 {
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Align with the bottom of the card */
+    left: 0; /* Align with the left edge of the card */
+    width: 100%; /* Cover the entire width of the card */
+    padding: 0; /* Add padding for spacing */
+    flex-direction: row;
+    display: flex;
+    margin-bottom: -11px;
+    height: 79px;
+   
+  }
+  
+
+  .table-column1 {
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 20px);
+    padding-top: 26px;
+    padding-left: 11px;
+  }
+  
+.cards
+{
+    display: flex;
+    margin-top: 10px;
+}
+.table-column1 p{
+  color:#000000;
+  font-family: "DM Sans", sans-serif;
+font-size: 17px;
+line-height: 19.92px;
+letter-spacing: -0.42717939615249634px;
+text-align: left;
+margin-top: -53px;
+}
+.table-column1 img{
+  padding-left:20px;
+}
+@media (max-width: 500px) {
+  .cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      margin: 20px auto; 
+  }
+  .place h1{
+    font-family: "DM Sans", sans-serif;
+font-size: 25px;
+line-height: 59px;
+letter-spacing: -1.256410002708435px;
+text-align: left;
+
+}
+.place
+{
+  margin-left: 35px;
+  margin-bottom: 0px;
+  margin-top: 51px;
+}
+.table-container {
+  width: auto; /* Make container width auto for responsiveness */
+  margin: 20px; /* Adjust margin for centering and spacing */
+  overflow-x: auto; /* Add horizontal scrolling when content exceeds container width */
+}
+
+.table-column {
+  padding: 2px; /* Adjust padding for smaller screens */
+  padding-top: 12px; /* Adjust top padding for smaller screens */
+}
+.button2
+{
+  padding-left: 45px;
+  padding-top: 19px;
+}
+
+}
+.cards1
+{
+    display: flex;
+    margin-top: 10px;
+}
+@media (max-width: 900px) {
+  .cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      margin: 20px auto; 
+  }
+  .place h1{
+    font-family: "DM Sans", sans-serif;
+font-size: 25px;
+line-height: 59px;
+letter-spacing: -1.256410002708435px;
+text-align: left;
+
+}
+.place
+{
+  margin-left: 35px;
+  margin-bottom: 0px;
+  margin-top: 51px;
+}
+.table-container {
+  width: auto; /* Make container width auto for responsiveness */
+  margin: 20px; /* Adjust margin for centering and spacing */
+  overflow-x: auto; /* Add horizontal scrolling when content exceeds container width */
+}
+
+.table-column {
+  padding: 2px; /* Adjust padding for smaller screens */
+  padding-top: 12px; /* Adjust top padding for smaller screens */
+}
+.button2
+{
+  padding-left: 45px;
+  padding-top: 19px;
+}
+
+}
